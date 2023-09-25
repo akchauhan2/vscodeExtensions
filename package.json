@@ -1,0 +1,24 @@
+{
+  "name": "insert-line-number-extension",
+  "version": "1.0.0",
+  "publisher": "akchauhan2",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.insertLineNumber",
+        "title": "Insert Line Number"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
